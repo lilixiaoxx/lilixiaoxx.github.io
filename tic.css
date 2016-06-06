@@ -1,0 +1,134 @@
+/* Reset File */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Custom Styles */
+header{
+  width:45%;
+  margin:0 auto;
+}
+
+header img{
+  width:100%;
+  display:block;
+}
+
+header h1{
+  color: #adad85;
+  font-size:60px;
+  font-family:'Indie Flower', cursive;
+  padding:0 60px;
+  width:100%;
+}
+
+#container{
+  width:50%;
+  border:5px solid #adad85;
+  margin:0 auto;
+}
+
+#container h4{
+  font-family: 'Sigmar One', cursive;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#container table{
+  width:50%;
+  height:90%;
+  margin:0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+ }
+
+#container table td{
+  /*width:30%;
+  position: relative;
+  padding-bottom:30%;*/
+  border:2px solid white;
+  font-size: 100px;
+  width:100px;
+  height:100px;
+  background-color:#00e699;
+
+}
+
+#container table td .x{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#footer{
+  padding-left: 350px;
+}
+
+#footer table td{
+  font-size: 25px;
+  color:#3d3d29;
+  border:0;
+  padding-left: 18px;
+}
+
+#footer table tr{
+  display:inline;
+}
+
+.btn{
+  margin-left: 110px;
+  margin-top: 10px;
+  width: 84px;
+  height: 45px;
+  color: #3d3d29;
+}

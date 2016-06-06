@@ -43,24 +43,24 @@ q:before, q:after {
   content: '';
   content: none;
 }
-table {
+/*table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+*/
 
 /* Custom Styles */
-header{
+header {
   width:45%;
   margin:0 auto;
 }
 
-header img{
+header img {
   width:100%;
   display:block;
 }
 
-header h1{
+header h1 {
   color: #adad85;
   font-size:60px;
   font-family:'Indie Flower', cursive;
@@ -68,64 +68,61 @@ header h1{
   width:100%;
 }
 
-#container{
-  width:50%;
+#container {
+  width:80%;
   border:5px solid #adad85;
   margin:0 auto;
+  padding-bottom: 50px;
 }
 
-#container h4{
+#container h4 {
   font-family: 'Sigmar One', cursive;
   font-size: 25px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
-#container table{
-  width:50%;
-  height:90%;
+#container table {
+  width: 40%;
   margin:0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
- }
-
-#container table td{
-  /*width:30%;
+}
+#container td {
+  width: 33.33%;
   position: relative;
-  padding-bottom:30%;*/
-  border:2px solid white;
-  font-size: 100px;
-  width:100px;
-  height:100px;
-  background-color:#00e699;
-
 }
 
-#container table td .x{
+#container td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+#container td .content {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-
+  background: #00e699;
 }
 
-#footer{
+#footer {
   padding-left: 350px;
+  width:80%;
 }
 
-#footer table td{
+#footer table td {
   font-size: 25px;
   color:#3d3d29;
   border:0;
   padding-left: 18px;
 }
 
-#footer table tr{
+#footer table tr {
   display:inline;
 }
 
-.btn{
+.btn {
   margin-left: 110px;
   margin-top: 10px;
   width: 84px;

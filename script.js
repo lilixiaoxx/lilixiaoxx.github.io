@@ -74,7 +74,7 @@ var initGame = function() {
     for (var i=0; i<9; i++) {
       currentState[i]=null;
     }
-    curentStep = 0;
+    currentStep = 0;
     showArrow(currentStep);
     gameOver = false;
     $('.content').removeClass('win');
@@ -93,6 +93,7 @@ initGame();
       var s = symbols[currentStep++ %2];
       currentState[i]=s;
       $(this).html(s);
+      debugger
     for (var j=0, len=potentialCombos[i].length; j<len; j++){
       var winning=winningCombination[potentialCombos[i][j]];
       if (checkCombo(winning)){

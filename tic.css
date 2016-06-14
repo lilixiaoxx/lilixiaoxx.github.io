@@ -52,36 +52,32 @@ table {
 
 /* Custom Styles */
 header {
-  width:55%;
+  width:70%;
   margin:0 auto;
 }
 
 
 
 header img {
-  width:100%;
+  width:80%;
   display:block;
+  margin:0 auto;
 }
 
 header h1 {
   color: #adad85;
-  font-size:60px;
+  font-size:50px;
   font-family:'Indie Flower', cursive;
-  width:100%;
-  margin:0 100px;
+  /*width:100%;*/
+  /*margin:0 auto;*/
+  text-align: center;
 }
 
 #container{
-  width:80%;
+  width:65%;
   border:5px solid #adad85;
   margin:0 auto;
   padding-bottom: 50px;
-}
-
-@media screen and(max-width: 800px){
-  body{
-      width:80px;
-  }
 }
 
 #container h4 {
@@ -182,5 +178,21 @@ padding:0 50px;
   text-align:center;
   font-family: sans-serif;
 
+}
+@media (max-width: 500px){
+/*  body{
+      width:80px;
+  }*/
+  /*.msg{
+    width:100px;
+  }*/
+
+  header h1{
+    /*margin:0 auto;*/
+    font-size:20px;
+  }
+.player .mark{
+  width:30%;
+}
 }
 
